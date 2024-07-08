@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97218cc2-65e7-4c42-973e-e3318cf9836b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/CheckoutAndPaymentProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/CreateAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/MenuValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/SearchItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/ShopByBrands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/ShopByDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_Pages/SignIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/CheckoutAndPaymentProcessTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/CreateAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/MenuValidationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/SearchItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/ShopByBrandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/ShopByDepartmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BestBuy_testCases/SignInTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ConfigProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/ExtentReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/FileReaderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestNgListener.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ix601ki6UuvqZ3Q9z8KsIuTlWY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.D:/Intelli workspace/BestBuy.com/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SearchItemTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SignInTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Intelli workspace/BestBuy.com/src/test/java/utils&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Intelli workspace/BestBuy.com/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test\java\utils" />
+      <recent name="D:\Intelli workspace\BestBuy.com\test-output" />
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test\java\Utils" />
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test\java\Listeners" />
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test\java\BestBuy_testCases" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\\" />
+      <recent name="D:\Intelli workspace\BestBuy.com\" />
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy" />
+      <recent name="D:\Intelli workspace\BestBuy.com\src\test" />
+      <recent name="D:\Intelli workspace\BestBuy.com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.D:/Intelli workspace/BestBuy.com/testng.xml">
+    <configuration name="D:/Intelli workspace/BestBuy.com/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy.com" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.TestHTMLReporter" />
+        <listener class="org.testng.reporters.EmailableReporter2" />
+        <listener class="utils.TestNgListener" />
+        <listener class="org.testng.reporters.JUnitReportReporter" />
+        <listener class="org.testng.reporters.JUnitXMLReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchItemTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BestBuy_testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BestBuy_testCases" />
+      <option name="MAIN_CLASS_NAME" value="BestBuy_testCases.SearchItemTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignInTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BestBuy.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BestBuy_testCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BestBuy_testCases" />
+      <option name="MAIN_CLASS_NAME" value="BestBuy_testCases.SignInTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.D:/Intelli workspace/BestBuy.com/testng.xml" />
+      <item itemvalue="TestNG.SearchItemTest" />
+      <item itemvalue="TestNG.SignInTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.D:/Intelli workspace/BestBuy.com/testng.xml" />
+        <item itemvalue="TestNG.SignInTest" />
+        <item itemvalue="TestNG.SearchItemTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97218cc2-65e7-4c42-973e-e3318cf9836b" name="Changes" comment="" />
+      <created>1720419656834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720419656834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

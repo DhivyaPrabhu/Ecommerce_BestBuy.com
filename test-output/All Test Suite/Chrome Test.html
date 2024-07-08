@@ -1,0 +1,248 @@
+<html>
+<head>
+<title>TestNG:  Chrome Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 08 20:25:35 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>186 seconds (186051 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='BestBuy_testCases.MenuValidationTest.topLinkVerification()'><b>topLinkVerification</b><br>Test class: BestBuy_testCases.MenuValidationTest<br/>
+<a href="#Output-745835029" onClick='toggleBox("Output-745835029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-745835029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-745835029">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\topLinkVerification.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>BestBuy_testCases.MenuValidationTest@6933b6c6</td></tr>
+<tr>
+<td title='BestBuy_testCases.CreateAccountTest.createAccountEmptyCredentials()'><b>createAccountEmptyCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br/>
+<a href="#Output-2110472873" onClick='toggleBox("Output-2110472873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2110472873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2110472873">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountEmptyCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<tr>
+<td title='BestBuy_testCases.CreateAccountTest.reader()'><b>reader</b><br>Test class: BestBuy_testCases.CreateAccountTest<br/>
+<a href="#Output-937860163" onClick='toggleBox("Output-937860163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-937860163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-937860163">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\reader.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<tr>
+<td title='BestBuy_testCases.CreateAccountTest.createAccountValidCredentials()'><b>createAccountValidCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br>Parameters: 7373977119<br/>
+<a href="#Output-249515830" onClick='toggleBox("Output-249515830", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-249515830" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-249515830">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountValidCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<tr>
+<td title='BestBuy_testCases.SignInTest.signUpValidCredentials()'><b>signUpValidCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
+<a href="#Output-2066533285" onClick='toggleBox("Output-2066533285", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2066533285" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2066533285">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpValidCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>BestBuy_testCases.SignInTest@7bbc8656</td></tr>
+<tr>
+<td title='BestBuy_testCases.SignInTest.signUpEmptyCredentials()'><b>signUpEmptyCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
+<a href="#Output-930641076" onClick='toggleBox("Output-930641076", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-930641076" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-930641076">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpEmptyCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>BestBuy_testCases.SignInTest@7bbc8656</td></tr>
+<tr>
+<td title='BestBuy_testCases.CheckoutAndPaymentProcessTest.checkoutLoginProcess()'><b>checkoutLoginProcess</b><br>Test class: BestBuy_testCases.CheckoutAndPaymentProcessTest<br/>
+<a href="#Output-1227041903" onClick='toggleBox("Output-1227041903", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1227041903" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1227041903">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\checkoutLoginProcess.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>BestBuy_testCases.CheckoutAndPaymentProcessTest@169bb4dd</td></tr>
+<tr>
+<td title='BestBuy_testCases.ShopByBrandTest.shopByBrands()'><b>shopByBrands</b><br>Test class: BestBuy_testCases.ShopByBrandTest<br/>
+<a href="#Output-37878764" onClick='toggleBox("Output-37878764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-37878764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-37878764">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\shopByBrands.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>BestBuy_testCases.ShopByBrandTest@7dfb0c0f</td></tr>
+<tr>
+<td title='BestBuy_testCases.MenuValidationTest.bottomLinkVerification()'><b>bottomLinkVerification</b><br>Test class: BestBuy_testCases.MenuValidationTest<br/>
+<a href="#Output-1905252289" onClick='toggleBox("Output-1905252289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1905252289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1905252289">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\bottomLinkVerification.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>BestBuy_testCases.MenuValidationTest@6933b6c6</td></tr>
+<tr>
+<td title='BestBuy_testCases.SearchItemTest.searchAddToshoppingCart()'><b>searchAddToshoppingCart</b><br>Test class: BestBuy_testCases.SearchItemTest<br/>
+<a href="#Output-95640701" onClick='toggleBox("Output-95640701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-95640701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-95640701">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\searchAddToshoppingCart.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>BestBuy_testCases.SearchItemTest@7d3e8655</td></tr>
+<tr>
+<td title='BestBuy_testCases.ShopByDepartmentTest.shopByDepartment()'><b>shopByDepartment</b><br>Test class: BestBuy_testCases.ShopByDepartmentTest<br/>
+<a href="#Output-505572301" onClick='toggleBox("Output-505572301", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-505572301" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-505572301">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\shopByDepartment.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>BestBuy_testCases.ShopByDepartmentTest@626abbd0</td></tr>
+<tr>
+<td title='BestBuy_testCases.SignInTest.signUpInValidCredentials()'><b>signUpInValidCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
+<a href="#Output-1868437199" onClick='toggleBox("Output-1868437199", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1868437199" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1868437199">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpInValidCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>BestBuy_testCases.SignInTest@7bbc8656</td></tr>
+<tr>
+<td title='BestBuy_testCases.CreateAccountTest.createAccountInvalidCredentials()'><b>createAccountInvalidCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br>Parameters: 9876543210<br/>
+<a href="#Output-1551760389" onClick='toggleBox("Output-1551760389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1551760389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1551760389">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountInvalidCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<tr>
+<td title='BestBuy_testCases.CheckoutAndPaymentProcessTest.paymentInformation()'><b>paymentInformation</b><br>Test class: BestBuy_testCases.CheckoutAndPaymentProcessTest<br/>
+<a href="#Output-813496676" onClick='toggleBox("Output-813496676", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-813496676" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-813496676">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\paymentInformation.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>BestBuy_testCases.CheckoutAndPaymentProcessTest@169bb4dd</td></tr>
+</table><p>
+</body>
+</html>

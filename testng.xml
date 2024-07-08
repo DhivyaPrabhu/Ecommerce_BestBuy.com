@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+    <listener class-name="utils.TestNgListener" />
+</listeners>
+    <test name="Chrome Test">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="BestBuy_testCases.CreateAccountTest">
+                <parameter name="validphonenumber" value="7373977119"/>
+                <parameter name="invalidphonenumber" value="9876543210"/>
+            </class>
+            <class name="BestBuy_testCases.SignInTest"/>
+            <class name="BestBuy_testCases.MenuValidationTest"/>
+            <class name="BestBuy_testCases.SearchItemTest"/>
+            <class name="BestBuy_testCases.ShopByBrandTest"/>
+            <class name="BestBuy_testCases.ShopByDepartmentTest"/>
+            <class name="BestBuy_testCases.CheckoutAndPaymentProcessTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite>
