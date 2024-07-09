@@ -30,19 +30,16 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class BaseClass {
 
     public static WebDriver driver;
-    public static ExtentSparkReporter reporter;
-    public static ExtentReports extent;
-
     public static WebDriver launchBrowser(String browser) {
         if (browser.equalsIgnoreCase("Chrome")) {
             ChromeOptions chromeOp = new ChromeOptions();
             chromeOp.addArguments("--headless");
-            driver = new ChromeDriver();
+            driver = new ChromeDriver();//driver = new ChromeDriver(chromeOp)
             driver.manage().window().maximize();
         }else if (browser.equalsIgnoreCase("Edge")) {
             EdgeOptions edgeOp = new EdgeOptions();
             edgeOp.addArguments("--headless");
-            driver = new EdgeDriver();
+            driver = new EdgeDriver();//driver = new EdgeDriver(edgeOp)
             driver.manage().window().maximize();
         }
         /*else if (browser.equalsIgnoreCase("Firefox")) {
