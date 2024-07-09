@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Chrome Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 08 20:25:35 IST 2024</td>
+<td>Started on:</td><td>Tue Jul 09 19:50:54 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>186 seconds (186051 ms)</td>
+<tr><td>Total time:</td><td>266 seconds (266510 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,127 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='BestBuy_testCases.ShopByBrandTest.shopByBrands()'><b>shopByBrands</b><br>Test class: BestBuy_testCases.ShopByBrandTest<br/>
+<a href="#Output-1156644651" onClick='toggleBox("Output-1156644651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1156644651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1156644651">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\shopByBrands.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Sony a7 III&apos;]&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b44082e350f09ccd183ac2e21a54be2, findElement {value=//a[text()=&apos;Sony a7 III&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\divi3\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59501/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b44082e350f09ccd183ac2e21a54be2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:461)
+	at utils.BaseClass.clickOnElement(BaseClass.java:103)
+	at BestBuy_testCases.ShopByBrandTest.shopByBrands(ShopByBrandTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1156644651", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1156644651'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Sony a7 III&apos;]&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b44082e350f09ccd183ac2e21a54be2, findElement {value=//a[text()=&apos;Sony a7 III&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\divi3\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59501}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59501/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b44082e350f09ccd183ac2e21a54be2
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:461)
+	at utils.BaseClass.clickOnElement(BaseClass.java:103)
+	at BestBuy_testCases.ShopByBrandTest.shopByBrands(ShopByBrandTest.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+</pre></div></td>
+<td>32</td>
+<td>BestBuy_testCases.ShopByBrandTest@49b2a47d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,173 +197,161 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='BestBuy_testCases.MenuValidationTest.topLinkVerification()'><b>topLinkVerification</b><br>Test class: BestBuy_testCases.MenuValidationTest<br/>
-<a href="#Output-745835029" onClick='toggleBox("Output-745835029", this, "Show output", "Hide output");'>Show output</a>
+<td title='BestBuy_testCases.CreateAccountTest.createAccountValidCredentials()'><b>createAccountValidCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br>Parameters: 7373977119<br/>
+<a href="#Output-233951222" onClick='toggleBox("Output-233951222", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-745835029" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-745835029">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\topLinkVerification.png width = 200px height=200px /><br/>
+<a href="#Output-233951222" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-233951222">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountValidCredentials.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>0</td>
-<td>BestBuy_testCases.MenuValidationTest@6933b6c6</td></tr>
+<td>31</td>
+<td>BestBuy_testCases.CreateAccountTest@3b35a229</td></tr>
+<tr>
+<td title='BestBuy_testCases.SignInTest.signUpInValidCredentials()'><b>signUpInValidCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
+<a href="#Output-716996660" onClick='toggleBox("Output-716996660", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-716996660" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-716996660">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpInValidCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>BestBuy_testCases.SignInTest@2f67a4d3</td></tr>
 <tr>
 <td title='BestBuy_testCases.CreateAccountTest.createAccountEmptyCredentials()'><b>createAccountEmptyCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br/>
-<a href="#Output-2110472873" onClick='toggleBox("Output-2110472873", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1216863787" onClick='toggleBox("Output-1216863787", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2110472873" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2110472873">
+<a href="#Output-1216863787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1216863787">
 <img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountEmptyCredentials.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>4</td>
-<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<td>10</td>
+<td>BestBuy_testCases.CreateAccountTest@3b35a229</td></tr>
+<tr>
+<td title='BestBuy_testCases.SignInTest.signUpEmptyCredentials()'><b>signUpEmptyCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
+<a href="#Output-1267082248" onClick='toggleBox("Output-1267082248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1267082248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1267082248">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpEmptyCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>BestBuy_testCases.SignInTest@2f67a4d3</td></tr>
 <tr>
 <td title='BestBuy_testCases.CreateAccountTest.reader()'><b>reader</b><br>Test class: BestBuy_testCases.CreateAccountTest<br/>
-<a href="#Output-937860163" onClick='toggleBox("Output-937860163", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-521985523" onClick='toggleBox("Output-521985523", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-937860163" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-937860163">
+<a href="#Output-521985523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-521985523">
 <img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\reader.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
-<tr>
-<td title='BestBuy_testCases.CreateAccountTest.createAccountValidCredentials()'><b>createAccountValidCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br>Parameters: 7373977119<br/>
-<a href="#Output-249515830" onClick='toggleBox("Output-249515830", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-249515830" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-249515830">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountValidCredentials.png width = 200px height=200px /><br/>
-</div>
-</td>
-<td></td>
-<td>21</td>
-<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<td>BestBuy_testCases.CreateAccountTest@3b35a229</td></tr>
 <tr>
 <td title='BestBuy_testCases.SignInTest.signUpValidCredentials()'><b>signUpValidCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
-<a href="#Output-2066533285" onClick='toggleBox("Output-2066533285", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1411828534" onClick='toggleBox("Output-1411828534", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2066533285" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2066533285">
+<a href="#Output-1411828534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1411828534">
 <img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpValidCredentials.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>8</td>
-<td>BestBuy_testCases.SignInTest@7bbc8656</td></tr>
+<td>14</td>
+<td>BestBuy_testCases.SignInTest@2f67a4d3</td></tr>
 <tr>
-<td title='BestBuy_testCases.SignInTest.signUpEmptyCredentials()'><b>signUpEmptyCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
-<a href="#Output-930641076" onClick='toggleBox("Output-930641076", this, "Show output", "Hide output");'>Show output</a>
+<td title='BestBuy_testCases.SearchItemTest.searchAddToshoppingCart()'><b>searchAddToshoppingCart</b><br>Test class: BestBuy_testCases.SearchItemTest<br/>
+<a href="#Output-1384323699" onClick='toggleBox("Output-1384323699", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-930641076" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-930641076">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpEmptyCredentials.png width = 200px height=200px /><br/>
+<a href="#Output-1384323699" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1384323699">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\searchAddToshoppingCart.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>7</td>
-<td>BestBuy_testCases.SignInTest@7bbc8656</td></tr>
+<td>43</td>
+<td>BestBuy_testCases.SearchItemTest@2fb0623e</td></tr>
 <tr>
-<td title='BestBuy_testCases.CheckoutAndPaymentProcessTest.checkoutLoginProcess()'><b>checkoutLoginProcess</b><br>Test class: BestBuy_testCases.CheckoutAndPaymentProcessTest<br/>
-<a href="#Output-1227041903" onClick='toggleBox("Output-1227041903", this, "Show output", "Hide output");'>Show output</a>
+<td title='BestBuy_testCases.ShopByDepartmentTest.shopByDepartment()'><b>shopByDepartment</b><br>Test class: BestBuy_testCases.ShopByDepartmentTest<br/>
+<a href="#Output-1092591822" onClick='toggleBox("Output-1092591822", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1227041903" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1227041903">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\checkoutLoginProcess.png width = 200px height=200px /><br/>
+<a href="#Output-1092591822" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1092591822">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\shopByDepartment.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>4</td>
-<td>BestBuy_testCases.CheckoutAndPaymentProcessTest@169bb4dd</td></tr>
+<td>36</td>
+<td>BestBuy_testCases.ShopByDepartmentTest@5be1d0a4</td></tr>
 <tr>
-<td title='BestBuy_testCases.ShopByBrandTest.shopByBrands()'><b>shopByBrands</b><br>Test class: BestBuy_testCases.ShopByBrandTest<br/>
-<a href="#Output-37878764" onClick='toggleBox("Output-37878764", this, "Show output", "Hide output");'>Show output</a>
+<td title='BestBuy_testCases.MenuValidationTest.topLinkVerification()'><b>topLinkVerification</b><br>Test class: BestBuy_testCases.MenuValidationTest<br/>
+<a href="#Output-977972728" onClick='toggleBox("Output-977972728", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-37878764" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-37878764">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\shopByBrands.png width = 200px height=200px /><br/>
+<a href="#Output-977972728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977972728">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\topLinkVerification.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>27</td>
-<td>BestBuy_testCases.ShopByBrandTest@7dfb0c0f</td></tr>
+<td>0</td>
+<td>BestBuy_testCases.MenuValidationTest@5e3f861</td></tr>
 <tr>
 <td title='BestBuy_testCases.MenuValidationTest.bottomLinkVerification()'><b>bottomLinkVerification</b><br>Test class: BestBuy_testCases.MenuValidationTest<br/>
-<a href="#Output-1905252289" onClick='toggleBox("Output-1905252289", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1506083063" onClick='toggleBox("Output-1506083063", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1905252289" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1905252289">
+<a href="#Output-1506083063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1506083063">
 <img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\bottomLinkVerification.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>BestBuy_testCases.MenuValidationTest@6933b6c6</td></tr>
-<tr>
-<td title='BestBuy_testCases.SearchItemTest.searchAddToshoppingCart()'><b>searchAddToshoppingCart</b><br>Test class: BestBuy_testCases.SearchItemTest<br/>
-<a href="#Output-95640701" onClick='toggleBox("Output-95640701", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-95640701" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-95640701">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\searchAddToshoppingCart.png width = 200px height=200px /><br/>
-</div>
-</td>
-<td></td>
-<td>28</td>
-<td>BestBuy_testCases.SearchItemTest@7d3e8655</td></tr>
-<tr>
-<td title='BestBuy_testCases.ShopByDepartmentTest.shopByDepartment()'><b>shopByDepartment</b><br>Test class: BestBuy_testCases.ShopByDepartmentTest<br/>
-<a href="#Output-505572301" onClick='toggleBox("Output-505572301", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-505572301" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-505572301">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\shopByDepartment.png width = 200px height=200px /><br/>
-</div>
-</td>
-<td></td>
-<td>21</td>
-<td>BestBuy_testCases.ShopByDepartmentTest@626abbd0</td></tr>
-<tr>
-<td title='BestBuy_testCases.SignInTest.signUpInValidCredentials()'><b>signUpInValidCredentials</b><br>Test class: BestBuy_testCases.SignInTest<br/>
-<a href="#Output-1868437199" onClick='toggleBox("Output-1868437199", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1868437199" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1868437199">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\signUpInValidCredentials.png width = 200px height=200px /><br/>
-</div>
-</td>
-<td></td>
-<td>7</td>
-<td>BestBuy_testCases.SignInTest@7bbc8656</td></tr>
-<tr>
-<td title='BestBuy_testCases.CreateAccountTest.createAccountInvalidCredentials()'><b>createAccountInvalidCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br>Parameters: 9876543210<br/>
-<a href="#Output-1551760389" onClick='toggleBox("Output-1551760389", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1551760389" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1551760389">
-<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountInvalidCredentials.png width = 200px height=200px /><br/>
-</div>
-</td>
-<td></td>
-<td>8</td>
-<td>BestBuy_testCases.CreateAccountTest@1b919693</td></tr>
+<td>BestBuy_testCases.MenuValidationTest@5e3f861</td></tr>
 <tr>
 <td title='BestBuy_testCases.CheckoutAndPaymentProcessTest.paymentInformation()'><b>paymentInformation</b><br>Test class: BestBuy_testCases.CheckoutAndPaymentProcessTest<br/>
-<a href="#Output-813496676" onClick='toggleBox("Output-813496676", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1753607449" onClick='toggleBox("Output-1753607449", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-813496676" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-813496676">
+<a href="#Output-1753607449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1753607449">
 <img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\paymentInformation.png width = 200px height=200px /><br/>
 </div>
 </td>
 <td></td>
-<td>28</td>
-<td>BestBuy_testCases.CheckoutAndPaymentProcessTest@169bb4dd</td></tr>
+<td>33</td>
+<td>BestBuy_testCases.CheckoutAndPaymentProcessTest@415b0b49</td></tr>
+<tr>
+<td title='BestBuy_testCases.CheckoutAndPaymentProcessTest.checkoutLoginProcess()'><b>checkoutLoginProcess</b><br>Test class: BestBuy_testCases.CheckoutAndPaymentProcessTest<br/>
+<a href="#Output-2000267972" onClick='toggleBox("Output-2000267972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000267972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000267972">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\checkoutLoginProcess.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>BestBuy_testCases.CheckoutAndPaymentProcessTest@415b0b49</td></tr>
+<tr>
+<td title='BestBuy_testCases.CreateAccountTest.createAccountInvalidCredentials()'><b>createAccountInvalidCredentials</b><br>Test class: BestBuy_testCases.CreateAccountTest<br>Parameters: 9876543210<br/>
+<a href="#Output-579590740" onClick='toggleBox("Output-579590740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-579590740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-579590740">
+<img src= D:\Intelli workspace\BestBuy.com\src\test\Screenshots-BestBuy\createAccountInvalidCredentials.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>BestBuy_testCases.CreateAccountTest@3b35a229</td></tr>
 </table><p>
 </body>
 </html>

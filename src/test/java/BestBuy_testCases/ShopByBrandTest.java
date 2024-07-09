@@ -36,6 +36,7 @@ public class ShopByBrandTest extends BaseClass {
 		shopBrands.getSelectCameraCondition();
 		clickOnElement(shopBrands.getSelectCameraCondition());
 		shopBrands.getSelectCameraModelFamily();
+		sleep(3000);
 		clickOnElement(shopBrands.getSelectCameraModelFamily());
 		shopBrands.getSelectCustomerRatings();
 		clickOnElement(shopBrands.getSelectCustomerRatings());
