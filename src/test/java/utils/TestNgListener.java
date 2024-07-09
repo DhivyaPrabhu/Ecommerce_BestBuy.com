@@ -75,11 +75,11 @@ public class TestNgListener extends BaseClass implements ITestListener
     @Override
     public void onFinish(ITestContext context) {
         report.flush();
-        File eReportFile = new File("D:\\Intelli workspace\\BestBuy.com\\src\\test\\ExtentReport\\eReport.html");
+       /* File eReportFile = new File("D:\\Intelli workspace\\BestBuy.com\\src\\test\\ExtentReport\\eReport.html");
         try {
             Desktop.getDesktop().browse(eReportFile.toURI());
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
+        }*/
     }
 }
